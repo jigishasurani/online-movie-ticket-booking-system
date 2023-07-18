@@ -1,0 +1,65 @@
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 330px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.font
+{
+color: white;
+font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+}       
+.font1
+{
+color: #B2BABB ;
+font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+}
+.column1 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}                    
+.checked {
+  color: orange;
+}
+.summary1 {
+  margin-right: 150px;
+margin-left: 150px;
+}
+img {
+  border-radius: 50%;
+  height: 130px;
+
+}
+.raw > .columnn {
+  padding: 10 12px;
+}
+
+.raw:after {
+  content: "";
+  display: table;
+  clear: both;
+  heigth: 30%;
+}
+
+.columnn {
+  float: left;
+  width: 18%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.w3-btn {width:150px;}

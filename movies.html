@@ -1,0 +1,191 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="4.css">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#grad1
+{
+  height: 800px;
+  background-color: #f2f2f2;
+  background-image: linear-gradient(to bottom right,#f2f2f2 ,#f2f2f2);
+}
+
+.row > .column {
+  padding: 10 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  heigth: 30%;
+  text-decoration: none;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  text-decoration: none;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:link {
+  text-decoration: none;
+}
+.button {
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.column1 {
+  float: left;
+  width: 40%,60%;
+  padding: 9px;
+} 
+</style>
+<body>
+<div id="grad1">
+<div class="tab">
+  <button class="tablinks" onclick="opentab(event, 'Now Showing')">Now Showing</button>
+</div>
+<figure>
+	<div class="row">
+  		<div class="column">
+			<a href="movie1.html">
+    			<img src="roy.jpg"  style="width:100%"  class="hover-shadow cursor"></a>
+    		<figcaption>
+				<h3> <a href="movie1.html"> &#9825; 75%    Roy</a> </h3>
+				<div class="column1">
+				 UA | Hindi  
+				</div>
+				<div class="column1">
+					<button class="button button2"> <a href="bookmovie1.html" >  BOOK TICKETS</button >
+				</div>
+			</figcaption>
+  		</div>
+  		<div class="column">
+  			<a href="movie2.html">
+    			<img src="streetdancer.jpg" style="width:100%"  class="hover-shadow cursor"></a>
+    		<figcaption>
+				<h3> <a href="movie1.html"> &#9825; 80%    Street Dancer 3D</a> </h3>
+				<div class="column1">
+				 UA | Hindi
+				</div>
+				<div class="column1">
+                                  	<button class="button button2"> <a href="bookmovie2.html" >  BOOK TICKETS</button >
+				</div>
+			</figcaption>
+  		</div>
+                <div class="column">
+			<a href="movie3.html">
+    			<img src="hack.jpg"  style="width:100%"  class="hover-shadow cursor"></a>
+    			<figcaption>
+				<h3> <a href="movie3.html"> &#9825; 65%    Hacked</a> </h3>
+				<div class="column1">
+				 UA | Hindi  
+				</div>
+				<div class="column1">
+					<button class="button button2"> <a href="bookmovie3.html" >  BOOK TICKETS</button >
+				</div>
+			</figcaption>
+  		</div>  
+                <div class="column">
+			<a href="movie4.html">
+    			<img src="pink.jpg"  style="width:100%"  class="hover-shadow cursor"></a>
+    			<figcaption>
+				<h3> <a href="movie4.html"> &#9825; 85%    Pink</a> </h3>
+				<div class="column1">
+				 UA | Hindi  
+				</div>
+				<div class="column1">
+					<button class="button button2"> <a href="bookmovie4.html" >  BOOK TICKETS</button >
+				</div>
+			</figcaption>
+  		</div>
+	</div>
+	<div class="row">
+		<div class="column">
+			<a href="movie5.html">
+    			<img src="insiad.jpg"  style="width:100%"  class="hover-shadow cursor"></a>
+    			<figcaption>
+				<h3> <a href="movie5.html"> &#9825; 50%    Inside</a> </h3>
+				<div class="column1">
+				 UA | Hindi  
+				</div>
+				<div class="column1">
+					<button class="button button2"> <a href="bookmovie5.html" >  BOOK TICKETS</button >
+				</div>
+			</figcaption>
+  		</div>
+ 		<div class="column">
+			<a href="movie6.html">
+    			<img src="johnwick.jpg"  style="width:100%"  class="hover-shadow cursor"></a>
+    			<figcaption>
+				<h3> <a href="movie6.html"> &#9825; 86%    John Wick</a> </h3>
+				<div class="column1">
+				 UA | English  
+				</div>
+				<div class="column1">
+					<button class="button button2"> <a href="bookmovie6.html" >  BOOK TICKETS</button >
+				</div>
+			</figcaption>
+  		</div>
+  		<div class="column">
+			<a href="movie7.html">
+    			<img src="veere-di-wedding.jpg"  style="width:100%"  class="hover-shadow cursor"></a>
+    			<figcaption>
+				<h3> <a href="movie7.html"> &#9825; 89%    veere-di-wedding</a> </h3>
+				<div class="column1">
+				 UA | Hindi  
+				</div>
+				<div class="column1">
+					<button class="button button2"> <a href="bookmovie7.html" >  BOOK TICKETS</button >
+				</div>
+			</figcaption>
+           	</div>
+		<div class="column">
+			<a href="movie8.html">
+    			<img src="im2.jpg"  style="width:100%"  class="hover-shadow cursor"></a>
+    			<figcaption>
+				<h3> <a href="movie8.html"> &#9825; 90%    Iron Man2</a> </h3>
+				<div class="column1">
+				 UA | Hindi  
+				</div>
+				<div class="column1">
+					<button class="button button2"> <a href="bookmovie8.html" >  BOOK TICKETS</button >
+				</div>
+			</figcaption>
+           	</div>
+</div>
+
+
+</div>
+</div>
+</div>
+<figure>
+</body>
+</html>
